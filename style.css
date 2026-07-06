@@ -3,3 +3,95 @@
   margin: 0;
   box-sizing: border-box;
 }
+.menu {
+  width: 100%;
+  height: 13vh;
+  background-color: rgb(10, 42, 68);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 100%;
+  gap: 0.2vh;
+}
+.logo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  gap: 0.2vh;
+}
+.logo-dop {
+  grid-column: span 2;
+}
+.logo-name {
+  grid-column: span 3;
+  display: grid;
+  justify-content: left;
+  align-content: center;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, 50%);
+  gap: 0.2vh;
+}
+.logo-site-name {
+  font-family: Calibri;
+  font-size: 1.3vw;
+  align-content: end;
+  color: white;
+}
+.logo-safe {
+  font-family: Calibri;
+  font-size: 1vw;
+  align-content: start;
+  color: rgba(255, 255, 255, 0.685);
+}
+
+.about {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  gap: 0.2vh;
+}
+.about-item {
+  font-family: Calibri;
+  font-size: 1vw;
+  align-content: center;
+  color: rgba(255, 255, 255, 0.685);
+}
+.number {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  gap: 0.2vh;
+}
+.number-meny {
+  font-size: 1vw;
+  align-content: center;
+  align-self: center;
+}
+.number-telephones {
+  grid-column: span 4;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, 50%);
+  gap: 0.2vh;
+}
+.number-tel-first {
+  font-family: Calibri;
+  font-size: 1.1vw;
+  align-content: end;
+  color: rgb(255, 255, 255);
+}
+.number-tel-second {
+  font-family: Calibri;
+  font-size: 1.1vw;
+  align-content: start;
+  color: rgb(255, 255, 255);
+}
