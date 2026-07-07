@@ -46,9 +46,8 @@
   height: 25%;
   border-radius: 10px;
   color: white;
-  background-color: rgb(101, 183, 255);
+  background-color: rgb(10, 42, 68);
   font-size: 22px;
-  box-shadow: 2px 2px 4px rgb(101, 183, 255);
   border: none;
   outline: none;
   &:hover {
